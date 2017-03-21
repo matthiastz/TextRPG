@@ -1,4 +1,4 @@
-package data;
+package main.data;
 /**
  * Represents the part (amount) and boundaries of a
  * special attribute, like a progress bar.

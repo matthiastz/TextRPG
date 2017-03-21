@@ -1,4 +1,5 @@
-import data.GameProgress;
+package main;
+import main.data.GameProgress;
 
 public class Main {
 
@@ -9,10 +10,8 @@ public class Main {
 			GameProgress gameProgress = new GameProgress("Matthias");
 			gameProgress.gameLoop();
 
-			
 		
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

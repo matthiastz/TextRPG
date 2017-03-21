@@ -1,4 +1,4 @@
-package data;
+package main.data;
 
 public enum Item {
 	SWORD,

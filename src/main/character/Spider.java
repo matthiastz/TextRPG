@@ -1,7 +1,7 @@
-package character;
+package main.character;
 
-import data.Amount;
-import data.Item;
+import main.data.Amount;
+import main.data.Item;
 
 public class Spider extends Enemy {
 

@@ -1,10 +1,10 @@
-package character;
+package main.character;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import data.Amount;
-import data.Item;
+import main.data.Amount;
+import main.data.Item;
 
 public abstract class Character {
 	private String name;

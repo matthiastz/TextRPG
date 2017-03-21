@@ -1,4 +1,4 @@
-package character;
+package main.character;
 
 public class Hero extends Character {
 

@@ -1,14 +1,14 @@
-package data;
+package main.data;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
-import character.Enemy;
-import character.Hero;
-import character.Hyena;
-import character.Oger;
-import character.Spider;
+import main.character.Enemy;
+import main.character.Hero;
+import main.character.Hyena;
+import main.character.Oger;
+import main.character.Spider;
 
 /**
  * This will hold all the relevant characters and progress the game in
@@ -73,13 +73,13 @@ public class GameProgress {
 		// create new enemy
 		if (toFight instanceof Hyena) {
 			newEnemy = new Hyena("Hyena Bot", level);
-			System.out.println("Killed an Hyena LVL: " + toFight.getLevel());
+			System.out.println("Killed a Hyena LVL: " + toFight.getLevel());
 		} else if (toFight instanceof Oger) {
 			newEnemy = new Oger("Oger Bot", level);
-			System.out.println("Killed an Oger LVL: " + toFight.getLevel());
+			System.out.println("Killed a Oger LVL: " + toFight.getLevel());
 		} else {
 			newEnemy = new Spider("Spider Bot", level);
-			System.out.println("Killed an Spider LVL: " + toFight.getLevel());
+			System.out.println("Killed a Spider LVL: " + toFight.getLevel());
 		}
 		
 		// get all items from the enemy bot

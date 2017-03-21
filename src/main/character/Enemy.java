@@ -1,9 +1,9 @@
-package character;
+package main.character;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-import data.Amount;
-import data.Item;
+import main.data.Amount;
+import main.data.Item;
 
 public abstract class Enemy extends Character {
 	

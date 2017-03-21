@@ -15,7 +15,7 @@ public class Spider extends Enemy {
 		setXp(level * 200);
 		setStamina(level * 80);
 		
-		if (randomNum % 2 == 0) {
+		if (randomNumItems % 2 == 0) {
 			addItem(Item.BOOTS);
 		} else {
 			addItem(Item.MANA_POTION);

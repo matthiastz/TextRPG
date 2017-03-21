@@ -27,12 +27,21 @@ public abstract class Character {
 		setHp(init_hp);
 		setMana(init_mana);
 		setXp(init_xp);
-		setStamina(stamina); // TODO
+		setStamina(stamina);
 		this.items = new LinkedList<>();
 	}
 	
-	public Character() {
+	public Character() throws Exception {
 		super();
+		// default values
+		this.name = "Default name";
+		this.level = 1;
+		setAttack(1);
+		setDefense(1);
+		setHp(1);
+		setMana(1);
+		setXp(1);
+		setStamina(1);
 		this.items = new LinkedList<>();
 	}
 

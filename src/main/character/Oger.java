@@ -15,7 +15,7 @@ public class Oger extends Enemy {
 		setXp(level * 300);
 		setStamina(level * 100);
 		
-		if (randomNum % 2 == 0) {
+		if (randomNumItems % 2 == 0) {
 			addItem(Item.BOOTS);
 			addItem(Item.SWORD);
 		} else {

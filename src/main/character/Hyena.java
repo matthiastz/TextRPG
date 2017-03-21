@@ -15,7 +15,7 @@ public class Hyena extends Enemy {
 		setXp(level * 100);
 		setStamina(level * 60);
 		
-		if (randomNum % 2 == 0) {
+		if (randomNumItems % 2 == 0) {
 			addItem(Item.HP_POTION);
 			addItem(Item.ARMOR);
 		} else {

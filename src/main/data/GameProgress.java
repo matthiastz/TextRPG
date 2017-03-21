@@ -22,9 +22,9 @@ public class GameProgress {
 	private Hero hero;
 	private List<Enemy> enemies;
 	
-	private int randomNumHyena;
-	private int randomNumOger;
-	private int randomNumSpider;
+	private final int randomNumHyena;
+	private final int randomNumOger;
+	private final int randomNumSpider;
 	
 	
 	// init
@@ -55,7 +55,7 @@ public class GameProgress {
 		
 		while (hero.getLevel() <= 100) {
 			fightEnemy();
-			hero.printStatus();
+			System.out.println(hero.statusToString());
 			Thread.sleep(1500);
 			System.out.print("\n");
 		}

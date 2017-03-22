@@ -27,19 +27,5 @@ public class GameProgressTest {
 	 * 
 	 */
 	
-	@Test
-	public void first_mock_test() {
-		// mock creation
-		List mockedList = mock(List.class);
-
-		// using mock object - it does not throw any "unexpected interaction" exception
-		mockedList.add("one");
-		mockedList.clear();
-
-		// selective, explicit, highly readable verification
-		verify(mockedList).add("one");
-		verify(mockedList).clear();
-	}
-	
 	
 }

@@ -8,3 +8,13 @@ Enemies should be objects too. They should get more difficult as the game progre
 Items should drop randomly from enemies."
 
 https://www.reddit.com/r/ProgrammingPrompts/comments/5wi0qr/challenge_program_a_text_based_rpg_in_java_using/
+
+# Mocks and Stubs
+
+https://semaphoreci.com/community/tutorials/stubbing-and-mocking-with-mockito-2-and-junit
+
+http://site.mockito.org/
+
+https://github.com/mockito/mockito/wiki
+
+https://github.com/mockito/mockito/wiki/How-to-write-good-tests

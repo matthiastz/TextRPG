@@ -1,6 +1,6 @@
 package main;
 import main.character.Enemy;
-import main.data.GameProgress;
+import main.processing.GameProgress;
 
 public class Main {
 

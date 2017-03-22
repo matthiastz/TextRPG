@@ -1,4 +1,4 @@
-package main.data;
+package main.processing;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -9,6 +9,7 @@ import main.character.Hero;
 import main.character.Hyena;
 import main.character.Oger;
 import main.character.Spider;
+import main.data.Item;
 
 /**
  * This will hold all the relevant characters and progress the game in
@@ -94,5 +95,14 @@ public class GameProgress {
 		// update enemy list
 		enemies.remove(enemyNum);
 		enemies.add(newEnemy);
+	}
+	
+	/**
+	 * search for a specific enemy in the list
+	 * @param enemy
+	 * @return true if enemy is found, else false
+	 */
+	public boolean isEnemyExisting(Enemy enemy) {
+		return enemies.contains(enemy);
 	}
 }
